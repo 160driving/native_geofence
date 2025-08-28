@@ -6,7 +6,6 @@ import 'package:pigeon/pigeon.dart';
 @ConfigurePigeon(PigeonOptions(
   dartOut: 'lib/src/generated/platform_bindings.g.dart',
   dartPackageName: 'native_geofence',
-  swiftOut: 'ios/Classes/Generated/FlutterBindings.g.swift',
   kotlinOut:
       'android/src/main/kotlin/com/chunkytofustudios/native_geofence/generated/FlutterBindings.g.kt',
   kotlinOptions:
